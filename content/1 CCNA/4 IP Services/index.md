@@ -1,0 +1,17 @@
+tags: #knowledge 
+
+Este capítulo serve como introdução dos principais protocolos que envolvem o IPv4 para o funcionamento adequado da rede.
+
+São introduzidos os protocolos NAT de tradução de IP's privados -> públicos, protocolo DHCP e DNS para aspectos específicos da rede para hosts. SNMP e Syslog para monitoria, NTP para uso correto do relógio dos sistemas e outros.
+
+É requerido proficiência na configuração de acesso remoto com SSH que foi anteriormente introduzido.
+
+- [ ] [[4.1 Configure and verify inside source NAT using static and pools]]
+- [ ] [[4.2 Configure and verify NTP operating in a client and server mode]]
+- [ ] [[4.3 Explain the role of DHCP and DNS within the network]]
+- [ ] [[4.4 Explain the function of SNMP in network operations]]
+- [ ] [[4.5 Describe the use of syslog features, including facilities and severity levels]]
+- [ ] [[4.6 Configure and verify DHCP client and relay]]
+- [ ] [[4.7 Explain the forwarding per-hop behavior (PHB) for QoS such as classification, marking, queuing, congestion, policing, and shaping]]
+- [ ] [[4.8 Configure network devices for remote access using SSH]]
+- [ ] [[4.9 Describe the capabilities and functions of TFTP-FTP in the network]]
