@@ -158,11 +158,6 @@ plugins:
       folderClickBehavior: "link"
       folderDefaultState: "collapsed"
       useSavedState: true
-      mapFn: |
-        (node) => {
-          node.data.slug = "jmcert/" + node.data.slug;
-          return node;
-        }
   - source: "@quartz-community/graph"
     enabled: true
     options:
