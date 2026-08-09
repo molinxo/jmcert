@@ -25,7 +25,7 @@ export const DefaultFrame: PageFrame = {
       <>
         <div class="left sidebar">
           <img
-            src="quartz/static/icon.png"
+            src="/jmcert/static/icon.png"
             alt="Logo"
             className="sidebar-logo"
             style={{ width: "150px", height: "auto" }} />
