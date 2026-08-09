@@ -24,6 +24,12 @@ export const DefaultFrame: PageFrame = {
     return (
       <>
         <div class="left sidebar">
+          <img
+            src="../static/icon.png"
+            alt="Logo"
+            className="sidebar-logo"
+            style={{ width: "150px", height: "auto" }} />
+
           {left.map((BodyComponent) => (
             <BodyComponent {...componentData} />
           ))}
