@@ -28,7 +28,7 @@ export const DefaultFrame: PageFrame = {
             src="/jmcert/static/icon.png"
             alt="Logo"
             className="sidebar-logo"
-            style={{ width: "150px", height: "auto" }} />
+            style={{ width: "100px", height: "auto", display:"block", margin:"0 auto" }} />
 
           {left.map((BodyComponent) => (
             <BodyComponent {...componentData} />
